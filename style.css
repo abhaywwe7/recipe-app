@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --tenne-tawny: #d65108;
+  --tenne-tawny-dark: #b54507;
+}
+body {
+  font-weight: 300;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
+}
+.btn {
+  cursor: pointer;
+  outline: 0;
+  font-size: 1.05rem;
+  font-family: inherit;
+}
+.text {
+  opacity: 0.8;
+}
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.container {
+  min-height: 100vh;
+}
+
+.mealWrapper {
+  min-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+  text-align: center;
+}
+.mealSearching {
+  margin: 2rem 0;
+}
+.mealSearching cite {
+  font-size: 1rem;
+}
+.mealSearchbox {
+  margin: 1.2rem 0;
+  display: flex;
+  align-items: stretch;
+}
