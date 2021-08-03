@@ -252,18 +252,25 @@ body {
 .recipeLink a:hover {
   opacity: 0.8;
 }
+.notFound {
+  grid-template-columns: 1fr !important;
+  color: var(--tenne-tawny);
+  font-size: 1.8rem;
+  font-weight: 600;
+  width: 100%;
+}
 
 /* responsiveness */
 @media screen and (min-width: 600px) {
   .mealSearchbox {
-    width: 548px;
+    width: 540px;
     margin-left: auto;
     margin-right: auto;
   }
 }
 @media screen and (min-width: 768px) {
   #meal {
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
